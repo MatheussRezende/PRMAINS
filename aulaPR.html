@@ -20,6 +20,10 @@
         main {
             padding: 20px;
         }
+        a:hover {
+            color: rgba(0, 0, 150, 0.8);
+            transition: ease 0.2s;
+        }
         footer {
             background-color: #333;
             color: white;
@@ -37,9 +41,18 @@
             cursor: pointer;
             text-align: center;
             display: inline-block;
+            border-radius: 20px;
         }
         .btn:hover {
             background-color: #45a049;
+            transition: ease 0.2s;
+        }
+        img{
+            margin-top: 10px;
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 30px;
+            pointer-events: none;
         }
     </style>
 </head>
@@ -53,6 +66,8 @@
     <section>
         <h2>Sobre o Projeto</h2>
         <p>Este projeto tem como objetivo ensinar o fluxo de trabalho do GitHub, incluindo a criação de branches, commits, Pull Requests e revisões de código.</p>
+        <p>Venha conhecer o nosso repositório abaixo:</p>
+        <a href="https://github.com/MatheussRezende/PRMAINS">Link do Repositório</a>
     </section>
 
     <section>
@@ -63,6 +78,16 @@
             <li>Design simples e responsivo.</li>
         </ul>
     </section>
+    <h2>Conheça o grupo</h2>
+    <nav>
+        <ul>
+            <li><a href="https://github.com/MatheussRezende/PRMAINS.git">Matheus</a></li>
+            <li><a href="https://github.com/Guilherme38-ultra">Guilherme</a></li>
+            <li><a href="https://github.com/JoaoSouzera">João</a></li>
+            <li><a href="https://github.com/yada071">Yada</a></li>
+            <li><a href="https://github.com/pcasarini">Casa</a></li>
+        </ul>
+    </nav>
 
     <button class="btn">Clique aqui para aprender mais!</button>
     <h1>Entre em contato conosco</h1>
@@ -76,6 +101,10 @@
     <br>
     <img src="foto.png" alt="email" width="5%">
 
+
+    <br>
+    <img src="/github-logo.webp" alt="Imagem do GitHub">
+    
 </main>
 
 <footer>
@@ -83,4 +112,3 @@
 </footer>
 
 </body>
-</html>
